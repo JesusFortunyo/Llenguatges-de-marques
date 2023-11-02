@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulari</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="cosas_formulari.css">
+</head>
+<body>
+    <div>
+        <h1 id="titulo-pagina">SUSCRIBETE AL NOTICIARIO ITIC BARCELONA</h1> <!--Titulo de la pagina-->
+            
+                <p><b>Volem saber més de tu ...</b></p>
+                <form action = "formulari_enviat.html" method="post">
+                    <label for = "email"> Ingresa tu correo electrónico:</label>
+                    <input class = "text-curt" Email="email" required> <!--Primer input para pedir el email-->
+                <br><br>
+                    <label for = "nombre">Ingresa tu nombre completo:</label>
+                    <input class = "correu" required> <!--Segon input para pedir nom-->
+                <br><br>
+                    <label for = "edad"> Edad:</label>
+                    <input type="number" id = "numericas" required> <!--Tercer input para pedir Edad-->
+                    
+                <br><br>
+                
+                <p><b>¿Que ciclo estas estudiando?</b></p>
+
+                    <input type="radio" id ="motivo" name="motivo">
+                    <label for="opcion uno" > ASIX </label><br> <!--Primera opcion-->
+
+                    <input type="radio" id ="motivo" name="motivo">
+                    <label for="opcion dos" > DAM </label><br> <!--Segona opcion-->
+                    
+                    <input type="radio" id ="motivo" name="motivo" checked="checked">
+                    <label for="opcion tres" > DAW </label><br> <!--Tercera opcion-->
+                <br>
+
+                <label for="elemento">¿En qué curso estás?</label>      
+                <select id="elemento" name="elemento">
+                    <option value="elemento1">Primer</option> <!--Primera opcion de escollir-->
+                    <option value="elemento2">Segon</option> <!--Segona opcion de escollir-->
+                </select>
+
+                <p><b>Marca que temas te interesan más!</b></p>
+
+                    <input type="checkbox" id ="tema1" checked="checked">
+                    <label for="tema1" > Examenes </label><br> <!--Primera opcion-->
+                    <input type="checkbox" id ="tema2">
+                    <label for="tema2" >Peliculas</label><br> <!--Segona opcion-->
+                    <input type="checkbox" id ="tema3">
+                    <label for="tema3" >Series</label><br> <!--Tercera opcion-->
+
+                <p>¿Hay más temas que te interesen? Haznoslo saber!</p>
+                    <label for="textarea"></label>
+                    <textarea id="textarea" name="textarea" required rows="10" cols="50">Me gustaria saber sobre...</textarea><br> <!--Cubo de texto para escribir-->
+                <br>
+                    <input type = "submit" class = "button" onclick = "href='formulari_enviat.html'" value="Suscribirme" >
+                
+                </form>
+    </div>            
+</body>
+</html>
