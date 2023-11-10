@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: lightgray;
+} /* Serveix per canviar tot el que hi ha dins del body i tambe el color de fons de la pagina web*/
+
+header{
+    background-color:darkslategray;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    color: white;
+} /*Serveix per canviar tota la part del titol de la pagina web (el color de fons, que es quedi fixa a dalt de la pagina i tambe el text que hi ha dins)*/
+
+nav{
+    background-color: rgb(115, 110, 110);
+    position: sticky; 
+    text-align: center;
+    top: 80px;  
+} /*Serveix per canviar el color i la posició del nav i tambe de les lletres que té*/
+   
+a{
+    color: white; 
+} /*Serveix per canviar la lletra de l'apartat del nav*/
+
+main {
+    padding: 100px;
+    margin: 20px;
+} /*Serveix per canviar la zona dels sections*/
+
+section{
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    margin: 16px;
+} /*Serveix per canviar el color dels sections i tambe la seva mida*/
+
+footer{
+    text-align: center;
+    background-color: darkslategray;
+    color: white;
+    padding: 3px;
+} /*Per ajustar el peu de pagina i tambe per canviar-li el color, i tambe ajustar la configuració del text*/
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 600px;
+} /*Per ajustar la mida de la imatge*/
