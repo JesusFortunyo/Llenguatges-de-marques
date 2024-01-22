@@ -1,0 +1,45 @@
+{
+    "pokemons": [
+        {
+            "id":255,
+            "nombre":"Torchic",
+            "tipo":"Fuego",
+            "peso":"2,5kg",
+            "altura":"0,4cm",
+            "estadisticas": [
+                {"Velocidad":5, "Fortaleza":4, "Precision":4, "Resistencia":3, "Salto":4}
+            ],
+            "Movimientos": [
+                {"nombre":"Arañazo", "descripcion":"Arañazo causa daño y no tiene ningún efecto secundario.", "Potencia":40, "contacto":true}, 
+                {"nombre":"Ascuas", "descripcion":"Ascuas causa daño y tiene una probabilidad del 10% de quemar al objetivo.", "Potencia":40, "contacto":false}
+            ],
+        "imagen":"https://images.wikidexcdn.net/mwuploads/wikidex/4/4f/latest/20230706064856/Torchic.png",
+        "Evoluciones": [
+            {"id":256, "nivel":16},
+            {"id":257, "nivel":36}
+        ]
+    },
+    {
+        "id":551,
+        "nombre":"Sandile",
+        "tipos":[
+            {"primer tipo":"Tierra"},
+            {"segundo tipo":"Siniestro"}
+        ],
+        "pes":"15,2kg",
+        "altura":"0,7cm",
+        "estadisticas": [
+            {"Velocidad":5, "Fortaleza":3, "Precision":4, "Resistencia":4, "Salto":4}
+        ],
+        "Movimientos": [
+            {"nom":"Malicioso", "descripcio":"Malicioso baja un nivel la defensa del objetivo. En combates dobles y triples afecta a todos los oponentes adyacentes al usuario.", "Potencia":0, "contacte":false},
+            {"nom":"Chuleria", "descripcio":"Chulería causa daño y no tiene ningún efecto secundario. Este movimiento aumenta su potencia en 20 puntos por cada incremento temporal en las estadísticas del usuario, tomando en cuenta el aumento del ataque, defensa, ataque especial, defensa especial, velocidad, precisión y evasión. Los descensos de estadísticas por debajo del nivel habitual no afectan a la potencia del movimiento. La máxima potencia posible de este movimiento es de 860 al tener las siete características anteriormente mencionadas en +6.", "Potencia":20, "contacte":true}
+        ],
+    "imagen":"https://images.wikidexcdn.net/mwuploads/wikidex/e/e0/latest/20191128023840/Sandile.png",
+    "Evoluciones": [
+        {"id":552, "nivel":29},
+        {"id":553, "nivel":40}
+    ]
+    }
+    ]
+}
