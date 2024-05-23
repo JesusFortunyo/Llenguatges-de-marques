@@ -1,0 +1,88 @@
+{
+  "START": [
+    {
+      "mensaje": "¿Dónde estoy? ¿Qué es este lugar? Estoy en una habitación vacía, totalmente solo. Solamente veo una pequeña puerta en cada lado de esta especie de cubo. Cada puerta tiene un ¿nombre?¿título?. Detrás mía había una nota. ¿Quién la habrá dejado aquí?,¿Qué quieren de mi? Tendré que salir como sea para averiguarlo.",
+      "nota": "http://localhost:3000/primera_hab",
+      "metodo": "GET"
+    }
+  ],
+  "primera_hab": [
+    {
+      "mensaje": "En la nota se ve una foto. ¿Tendré que entrar por la peli que contenga esta imagen? Espero que si...",
+      "acertijo": "https://drive.google.com/file/d/17N1X7pNThV1347P8j5noIIx6lF3UIorE/view?usp=drive_link",
+      "consejo":"Haz un POST con tus soluciones previo a intentar pasar",
+      "hazlo":"Antes de superar la habitación, borra tus respuestas, tal vez te están siguiendo.",
+      "mensaje_3": "http://localhost:3000/primera_respuesta_{titulo}"
+    }
+  ],
+  "primera_respuesta_seven": [
+    {
+      "mensaje": "CORRECTO! HAS ACCEDIDO A UNA NUEVA HABITACION",
+      "segunda_hab": "http://localhost:3000/segunda_hab",
+      "metodo": "GET"
+    }
+  ],
+  "segunda_hab": [
+    {
+      "mensaje": "No entiendo nada. He pasado por la puerta correcta y me vuelvo a encontrar en la misma situación... ¿habrá escapatoria? Bueno, a diferencia de la anterior sala ahora tengo enfrente una caja con varias cintas de vídeo. Por algun motivo todas ellas tienen una portada en blanco, con... ¿emojis?.",
+      "mensaje_2": "Debajo de todo he logrado ver una nota, en esta he logrado ver lo siguiente:",
+      "acertijo": "https://drive.google.com/file/d/1JtuQjFmMHLcmcNH5NgvquPCfGIhXV11Q/view?usp=drive_link",
+      "consejo":"Haz un PUT con tus soluciones previo a intentar pasar",
+      "hazlo":"Antes de superar la habitación, borra tus respuestas, tal vez te están siguiendo.",
+      "mensaje_3": "http://localhost:3000/segunda_respuesta_{codigo}"
+    },
+    {
+      "año":"00000000",
+      "CONSEJO":"Ves haciendo PUT para ver tus soluciones previo a superar la habitacion"
+    }
+  ],
+  "segunda_respuesta_05820609": [
+    {
+      "mensaje": "CORRECTO! HAS ACCEDIDO A UNA NUEVA HABITACION",
+      "segunda_hab": "http://localhost:3000/tercera_hab",
+      "metodo": "GET"
+    }
+  ],
+  "tercera_hab": [
+    {
+      "mensaje": "¿Otra habitacion? No puede ser... me voy a volver loco. Lo único que me queda es la esperanza por salir, tengo que seguir. Esta vez, en las puertas hay... ¿signos del zodiaco?",
+      "mensaje_2": "Esta vez hay varias notas, espero que signifique que queda poco de esta tortura. Seguiremos el orden de las notas.",
+      "acertijo_1":"http://localhost:3000/acertijo_uno",
+      "acertijo_2":"http://localhost:3000/acertijo_dos",
+      "acertijo_3":"http://localhost:3000/acertijo_tres",
+      "consejo":"Haz un POST con tus soluciones previo a intentar pasar",
+      "hazlo":"Antes de superar la habitación, borra tus respuestas, tal vez te están siguiendo.",
+      "mensaje_3": "http://localhost:3000/tercera_respuesta_{signo}."
+    }
+  ],
+  "acertijo_uno":[
+    {
+      "acertijo":"https://drive.google.com/file/d/1_o5tXomCxb2bZ14iQWh6U-9fZpisuLwE/view?usp=drive_link"
+    }
+  ],
+  "acertijo_dos":[
+    {
+      "acertijo":"https://drive.google.com/file/d/1sjiBavUxQK69dRumRVEIS7Hzka6N9tDa/view?usp=drive_link"
+    }
+  ],
+  "acertijo_tres":[
+    {
+      "acertijo":"https://drive.google.com/file/d/1ohEyvNvlgPmPXgMwXtGBS7lYBlfs_kRH/view?usp=drive_link"
+    }
+  ],
+  "tercera_respuesta_capricornio": [
+    {
+      "mensaje": "¿Qué es esto? Esto ya no es una habitación, estoy en un pasillo, al final del todo veo una luz. ¿Soy libre? En mis pies, una caja. Contiene una nota, espero que sea la ultima...",
+      "nota":"https://drive.google.com/file/d/195ODZiPSUFv0j2ez14lXgSTsn8e3zxDl/view?usp=drive_link",
+      "final":"http://localhost:3000/{protagonista}"
+    }
+  ],
+  "forrest": [
+    {
+      "felicidades": "¡DIOS MÍO! ¡QUÉ POCO HA FALTADO! ¡TODO HA SALTADO POR LOS AIRES! Pero... SOY LIBREE"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
